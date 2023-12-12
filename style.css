@@ -42,9 +42,9 @@ a,a:visited{
 		padding: 10px;
 		width: 285px;
 		height: 100px;
-		background-color: #3F9621;
+		background-color: #00552e;
 		border-radius: 10px;
-		box-shadow: 6px 6px 0px 0px #1A400E;         /* 吹き出し本体の影 */
+		box-shadow: 6px 6px 0px 0px #000000;         /* 吹き出し本体の影 */
 }
 
 /* 三角アイコン */
@@ -69,7 +69,7 @@ a,a:visited{
 		height: 0;
 		right: -13px;
 		top: 45px;
-		border-left: 15px solid #3F9621;
+		border-left: 15px solid #00552e;
 		border-top: 15px solid transparent;
 		border-bottom: 15px solid transparent;
 }
@@ -208,7 +208,7 @@ a.btn-emergency:active .btn-emergency-top {
     justify-content: center;
     align-items: center;
     z-index: 90;
-    background-color: #3F9621;
+    background-color: #00552e;
 }
 .menu-btn span,
 .menu-btn span:before,
@@ -252,13 +252,12 @@ a.btn-emergency:active .btn-emergency-top {
     top: 0;
     left: 0;
     z-index: 80;
-    background-color: #3584bb;
 }
 .menu-content ul {
     padding: 70px 10px 0;
 }
 .menu-content ul li {
-    border-bottom: solid 1px #ffffff;
+    border-bottom: solid 1px #F5F5F5;
     list-style: none;
 }
 .menu-content ul li a {
@@ -266,7 +265,7 @@ a.btn-emergency:active .btn-emergency-top {
     width: 100%;
     font-size: 20px;
     box-sizing: border-box;
-    color:#ffffff;
+    color:#f5f5f5;
     text-decoration: none;
     padding: 9px 15px 10px 0;
     position: relative;
@@ -275,8 +274,8 @@ a.btn-emergency:active .btn-emergency-top {
     content: "";
     width: 7px;
     height: 7px;
-    border-top: solid 2px #ffffff;
-    border-right: solid 2px #ffffff;
+    border-top: solid 2px #F5F5F5;
+    border-right: solid 2px #F5F5F5;
     transform: rotate(45deg);
     position: absolute;
     right: 11px;
@@ -291,7 +290,7 @@ a.btn-emergency:active .btn-emergency-top {
     top: 0;
     left: 100%;/*leftの値を変更してメニューを画面外へ*/
     z-index: 80;
-    background-color: #3F9621;
+    background-color: #00552E;
     transition: all 0.5s;/*アニメーション設定*/
 }
 
